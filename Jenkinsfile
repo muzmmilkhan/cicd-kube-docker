@@ -3,7 +3,7 @@ pipeline {
     agent any
 
 	tools {
-        JDK "openjdk"
+        java "openjdk"
     }
 
     environment {
